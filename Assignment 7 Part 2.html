@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Onlearn//Login</title>
+	<style type="text/css">
+		body{
+	background-image: linear-gradient(pink,violet,lightblue);
+	padding-bottom: 100px;
+}
+#main{
+	background-color: white;
+	width: 300px;
+	height: 440px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	color: violet;
+}
+a{
+	color: violet;
+	text-decoration: none;
+	font-weight: bold;
+}
+#button{
+	background-color: white;
+	border: solid grey 1px;
+	width: 50px;
+	height: 20px;
+	margin-left: 120px;
+	text-align: center;
+}
+#button:hover{
+	background-color: lightgrey;
+	border: solid darkgrey 1px;
+	width: 53px;
+	height: 23px;
+	text-align: center;
+}
+h1{
+	text-align: center;
+}
+label{
+	padding-left: 10px;
+	font-weight: bold;
+}
+button{
+	text-align: center;
+	margin-left: 110px;
+	color: violet;
+	font-weight: bold;
+}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<h1><b><u>Welcome!!!</u></b></h1>
+		<form method="post">
+			<label for="Name">Name:</label>
+			<input type="text" name="Name" id="Name" placeholder="Name">
+			<br><br>
+			<label for="Age">Age:</label>
+			<input type="text" name="Age" id="Age" placeholder="Age" style="width: 30px;height: 15px;">
+			<br><br>
+			<label for="DOB">Date Of Birth</label>
+			<input type="date" name="DOB" id="DOB">
+			<br><br>
+			<label for="username">Username:</label>
+			<input type="text" name="username" id="username" placeholder="Username" style="width:80px;">
+			<br><br>
+			<label for="Female">Female</label>
+			<input type="radio" name="gender" id="Female">
+			<label for="Male">Male</label>
+			<input type="radio" name="gender" id="Male">
+			<br><br>
+			<label for="email">Email ID:</label>
+			<input type="email" name="email" id="email" placeholder="Email ID">
+			<br><br>
+			<label for="password">Password:</label>
+			<input type="password" name="password" id="password" placeholder="Password">
+			<br><br>
+			<label for="confirm-password">Confirm Password</label>
+			<input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password:" style="width: 130px">
+			<br><br>
+			<div id="button"><a href="" onclick="alert('Subsequent page under development, please click on Home.')">Log In</a></div>
+			<br>
+			<div id="button"><a href="index.html">Home</a></div>
+		</form>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	// var con = confirm('Are you sure you want to log in?')
+	// console.log(con)
+	// var pro = prompt("Choose the odd one out (write letter with ')' or name of answer) - A) I am not a robot,B) I am not a robot,C)I am a human or D) I am not a robot")
+	// console.log(pro)
+</script>
